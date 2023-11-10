@@ -1,3 +1,5 @@
+# ADA
+
 Global RQ: what makes a movie have a sequel? (first part) (on s'intéresse aux films orignaux et on fait tout le dataset)
 Global RQ: How do sequels differ from their original films? (second part)
 Global RQ: what makes a good sequel? (Third part)
@@ -11,6 +13,7 @@ RQ5: Do critics reviews or consumer matter more in succes?
 
 
 # Part 1
+On compare les films qui ont une sequels par rapport à ceux qui n'en ont pas
 - Stats sur revenus
 - Durée
 - Mois de sortie
@@ -23,3 +26,21 @@ RQ5: Do critics reviews or consumer matter more in succes?
 	- Genre
 	- (Taille ?)
 	
+# Part 2 (sur les suites)
+On compare les films originaux par rapport à leur sequels
+- Stats sur revenus
+- Durée
+- Mois de sortie
+- Année de sortie
+- Langues
+- Pays d'origine
+- Genre du film
+- Types de personnages
+	- Age
+	- Genre
+	- (Taille ?)
+- Changement du scénario
+- Personnages récurrents
+
+# Part 3
+On compare les sequels entre eux (y'a le bon sequel et le mauvais sequel)
