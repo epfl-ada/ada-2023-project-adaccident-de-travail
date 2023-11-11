@@ -14,6 +14,11 @@ RQ4: Do storylines change between original and sequels?
 RQ5: Do critics reviews or consumer matter more in succes?
 
 
+# Ajustements datasets
+- Paires (original, sequel)
+- Genres les populaires (ex. 20 premiers), et paires de genres plus populaires
+
+
 # Part 1
 On compare les films qui ont une sequels par rapport à ceux qui n'en ont pas et aussi par rapport à tous les films
 **Trois datasets : Tous les films, films avec sequel, films sans sequel**
