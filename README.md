@@ -1,4 +1,5 @@
 # Tasks for P2
+## Mercredi soir, réserver et préparer slot pour TA
 - Data processing : Antoine, Willy
 - Readme :
   - Research questions, abstract, methods, blablater, timeline, répartition: Lena, Yosr, Elisa
