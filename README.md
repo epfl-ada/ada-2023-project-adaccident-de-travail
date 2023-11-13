@@ -1,3 +1,12 @@
+# Tasks for P2
+- Data processing : Antoine, Willy
+- Readme :
+  - Research questions, abstract, methods, blablater, timeline, répartition: Lena, Yosr, Elisa
+  - Methods : Yosr
+  - Lena : abstract, RQ
+  - Blabla : Elise
+- Deadlines : all vendredi  
+
 # Title
 
 ## Abstract
