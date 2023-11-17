@@ -24,20 +24,20 @@ To better understand the distinctions between sequels and their original films, 
 
 #### Part 1: Comparison Between Movies with and Without Sequels
 
-**Step 1: Datasets Selection and Filtering:**
+**1.1: Datasets Selection and Filtering:**
    - Choose three datasets for analysis: all films, films with sequels, and films without sequels.
    - Categorize films based on the presence or absence of sequels.
 
-**Step 2: Revenue and Duration Analysis:**
+**1.2: Revenue and Duration Analysis:**
    - Compute mean and median revenues and durations for films with sequels, films without sequels, and all films.
    - Apply statistical tests to assess differences in revenue and duration distributions among films with sequels, films without sequels, and all films.
 
-**Step 3: Release and Origin Analysis:**
+**1.3: Release and Origin Analysis:**
    - Categorize films by release month and analyze the distribution for films with sequels, films without sequels, and all films.
    - Compute the ratio of films with sequels to all films for each year and analyze trends.
    - Categorize films by their country of origin and analyze the distribution for films with sequels, films without sequels, and all films.
 
-**Step 4: Genre and Character Analysis:**
+**1.4: Genre and Character Analysis:**
    - Identify the N most frequent genres and determine the two main genres per film for all films.
    - Create heatmaps to visualize the relationship between the two main genres and compare the popularity of genre pairs.
    - Calculate median ages of actors, group actors into age bins for further analysis.
@@ -45,26 +45,26 @@ To better understand the distinctions between sequels and their original films, 
 
 #### Part 2: Comparison Between Original Films and Sequels
 
-**Step 5: Dataset Creation and Handling Saga Representation:**
+**2.1: Dataset Creation and Handling Saga Representation:**
    - Create pairs of films (original; sequel) and datasets for all sequels and all original films.
    - Acknowledge and address potential bias introduced by film sagas by considering each pair of films independently.
 
-**Step 6: Statistical Analysis on Revenues:**
+**2.2: Statistical Analysis on Revenues:**
    - Calculate median annual revenues for all original films and all sequels.
    - Compute the ratio of sequel revenue to original film revenue for each pair, possibly using cumulative distribution functions (CDF) or binning for analysis.
 
-**Step 7: Duration Analysis and Release Month Analysis:**
+**2.3: Duration Analysis and Release Month Analysis:**
    - Calculate median or mean durations for all original films and all sequels.
    - Compute the ratio of sequel duration to original film duration for each pair, considering CDF or binning.
    - Create histograms to compare the distribution of release months for original films and their sequels.
 
-**Step 8: Release Year Analysis and Origin Country Analysis:**
+**2.4: Release Year Analysis and Origin Country Analysis:**
    - Calculate the duration between the release of an original film and its sequel (in months or weeks).
    - Analyze the distribution of time gaps to understand how quickly sequels tend to follow the release of the original film.
    - Generate a heatmap to compare the distribution of genres between all original films and all sequels, similar to Part 1.
    - Analyze changes in the genre distribution between an original film and its sequel.
 
-**Step 9: Film Genre Analysis and Character Types Analysis:**
+**2.5: Film Genre Analysis and Character Types Analysis:**
    - Compute distances between genres in original films and their sequels, exploring similarity or dissimilarity.
    - Examine the evolution of genres between original films and sequels to determine if there are significant changes.
    - Calculate the proportion of the cast that returns for sequels.
@@ -72,12 +72,12 @@ To better understand the distinctions between sequels and their original films, 
    - Compute the ratio of male to female characters for all sequels and all original films.
    - Analyze changes in gender representation between original films and their sequels.
 
-**Step 10: Storyline Changes Analysis and Data Visualization:**
+**2.6: Storyline Changes Analysis and Data Visualization:**
    - Calculate similarity between synopses of original films and their sequels, possibly based on themes or overall content.
    - Compute the ratio of recurring characters between original films and sequels for each pair.
    - Generate visualizations, such as heatmaps, histograms, and comparative charts, to present the findings.
 
-**Step 11: Statistical Testing:**
+**2.7: Statistical Testing:**
    - Apply statistical tests to identify significant differences in revenues, durations, or other relevant metrics between original films and sequels.
 
 
@@ -91,9 +91,9 @@ Step 1 - 05.12.2023 : Make adjustements based on feedback from Milestone 2
 
 Step 2 - 09.12.2023 : Collect / Scrape all missing information needed for Part 2
 
-Step 3 - 12.12.2023 : Analysis of Part 2
+Step 3 - 12.12.2023 : Analysis of Parts 2.1 to 2.4
 
-Step 4 - 16.12.2023 : Analysis of Part 3
+Step 4 - 16.12.2023 : Analysis of Parts 2.5 to 2.7
 
 Step 5 - 20.12.2023 : Code cleanup + HTML Data Story
 
@@ -116,11 +116,11 @@ Step 6 - 22.12.2023 :  **Deadline Milestone 3**
 <tbody>
   <tr>
     <td class="tg-0lax">Antoine </td>
-    <td class="tg-0lax"> Website + help for part 2 + help for part 3 </td>
+    <td class="tg-0lax"> Website + help for part 2 </td>
   </tr>
   <tr>
     <td class="tg-0lax">Elisa </td>
-    <td class="tg-0lax"> Website + Collect missing information + help for part 2 </td>
+    <td class="tg-0lax"> Website + Collect missing information</td>
   </tr>
   <tr>
     <td class="tg-0lax">Yosr</td>
@@ -128,11 +128,11 @@ Step 6 - 22.12.2023 :  **Deadline Milestone 3**
   </tr>
   <tr>
     <td class="tg-0lax">Willy</td>    
-    <td class="tg-0lax"> In charge of Part 3 + final code cleanup </td>
+    <td class="tg-0lax"> In charge of Parts 2.1 to 2.4 + final code cleanup </td>
   </tr>
   <tr>
     <td class="tg-0lax">Lena</td>
-    <td class="tg-0lax"> In charge of Part 2 + in charge of final "submission" </td>
+    <td class="tg-0lax"> In charge of Parts 2.5 to 2.7 + in charge of final "submission" </td>
   </tr>
 </tbody>
 </table>
