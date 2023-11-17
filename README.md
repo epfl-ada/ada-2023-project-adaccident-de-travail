@@ -33,7 +33,7 @@ To better understand the distinctions between sequels and their original films, 
    - Apply statistical tests to assess differences in revenue and duration distributions among films with sequels, films without sequels, and all films.
 
 **1.3: Release and Origin Analysis:**
-   - Categorize films by release month and analyze the distribution for films with sequels, films without sequels, and all films.
+   - Categorize films by release year and month and analyze the distribution for films with sequels, films without sequels, and all films.
    - Compute the ratio of films with sequels to all films for each year and analyze trends.
    - Categorize films by their country of origin and analyze the distribution for films with sequels, films without sequels, and all films.
 
