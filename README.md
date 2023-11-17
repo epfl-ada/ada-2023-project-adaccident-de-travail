@@ -1,3 +1,4 @@
+<<<<<<< Updated upstream
 # Tasks for P2
 - Data processing : Antoine, Willy
 - Readme :
@@ -7,6 +8,8 @@
   - Blabla : Elise
 - Deadlines : all vendredi  
 
+=======
+>>>>>>> Stashed changes
 # Beyond Originals: A Deep Dive into Sequel Success
 
 ## Abstract
@@ -42,11 +45,15 @@ To better understand the distinctions between sequels and their original films, 
 
 ### Executed timeline
 
-Steps ...: **Deadline Milestone 2 17.11.2022**
+_Step n - to be done for dd/mm/yyyy_
 
-*01.12.2022: Deadline Homework 2*
-
-Step ...: **Deadline Milestone 3 23.12.2022**
+Step 0 - 17.11.2023: **Deadline Milestone 2**
+Step 1 - 05.12.2023 : Make adjustements based on feedback from Milestone 2 
+Step 2 - 09.12.2023 : Collect / Scrape all missing information needed for Part 2
+Step 3 - 12.12.2023 : Analysis of Part 2
+Step 4 - 16.12.2023 : Analysis of Part 3
+Step 5 - 20.12.2023 : Code cleanup + HTML Data Story
+Step 6 - 22.12.2023 :  **Deadline Milestone 3**
 
 ### Organization within team
 
@@ -64,23 +71,23 @@ Step ...: **Deadline Milestone 3 23.12.2022**
 <tbody>
   <tr>
     <td class="tg-0lax">Antoine </td>
-    <td class="tg-0lax"> 
+    <td class="tg-0lax"> Website + help for part 2 + help for part 3 </td>
   </tr>
   <tr>
     <td class="tg-0lax">Elisa </td>
-    <td class="tg-0lax"> 
+    <td class="tg-0lax"> Website + Collect missing information + help for part 2 </td>
   </tr>
   <tr>
     <td class="tg-0lax">Yosr</td>
-    <td class="tg-0lax"> 
+    <td class="tg-0lax"> Data Story + milestone 2 feedback correction </td>
   </tr>
   <tr>
-    <td class="tg-0lax">Willy</td>
-    <td class="tg-0lax"> 
+    <td class="tg-0lax">Willy</td>    
+    <td class="tg-0lax"> In charge of Part 3 + final code cleanup </td>
   </tr>
   <tr>
     <td class="tg-0lax">Lena</td>
-    <td class="tg-0lax">
+    <td class="tg-0lax"> In charge of Part 2 + in charge of final "submission" </td>
   </tr>
 </tbody>
 </table>
