@@ -34,13 +34,63 @@ To better understand the distinctions between sequels and their original films, 
 
 ### Methods
 
-#### Part 1: 
+#### Part 1: Comparison Between Movies with and Without Sequels
 
-**Step 1: ** 
+**Step 1: Datasets Selection and Filtering:**
+   - Choose three datasets for analysis: all films, films with sequels, and films without sequels.
+   - Categorize films based on the presence or absence of sequels.
 
-#### Part 2:
+**Step 2: Revenue and Duration Analysis:**
+   - Compute mean and median revenues and durations for films with sequels, films without sequels, and all films.
+   - Apply statistical tests to assess differences in revenue and duration distributions among films with sequels, films without sequels, and all films.
 
-#### Part 3: 
+**Step 3: Release and Origin Analysis:**
+   - Categorize films by release month and analyze the distribution for films with sequels, films without sequels, and all films.
+   - Compute the ratio of films with sequels to all films for each year and analyze trends.
+   - Categorize films by their country of origin and analyze the distribution for films with sequels, films without sequels, and all films.
+
+**Step 4: Genre and Character Analysis:**
+   - Identify the N most frequent genres and determine the two main genres per film for all films.
+   - Create heatmaps to visualize the relationship between the two main genres and compare the popularity of genre pairs.
+   - Calculate median ages of actors, group actors into age bins for further analysis.
+   - Calculate the ratio of male to female characters for all films, films with sequels, and films without sequels.
+
+#### Part 2: Comparison Between Original Films and Sequels
+
+**Step 5: Dataset Creation and Handling Saga Representation:**
+   - Create pairs of films (original; sequel) and datasets for all sequels and all original films.
+   - Acknowledge and address potential bias introduced by film sagas by considering each pair of films independently.
+
+**Step 6: Statistical Analysis on Revenues:**
+   - Calculate median annual revenues for all original films and all sequels.
+   - Compute the ratio of sequel revenue to original film revenue for each pair, possibly using cumulative distribution functions (CDF) or binning for analysis.
+
+**Step 7: Duration Analysis and Release Month Analysis:**
+   - Calculate median or mean durations for all original films and all sequels.
+   - Compute the ratio of sequel duration to original film duration for each pair, considering CDF or binning.
+   - Create histograms to compare the distribution of release months for original films and their sequels.
+
+**Step 8: Release Year Analysis and Origin Country Analysis:**
+   - Calculate the duration between the release of an original film and its sequel (in months or weeks).
+   - Analyze the distribution of time gaps to understand how quickly sequels tend to follow the release of the original film.
+   - Generate a heatmap to compare the distribution of genres between all original films and all sequels, similar to Part 1.
+   - Analyze changes in the genre distribution between an original film and its sequel.
+
+**Step 9: Film Genre Analysis and Character Types Analysis:**
+   - Compute distances between genres in original films and their sequels, exploring similarity or dissimilarity.
+   - Examine the evolution of genres between original films and sequels to determine if there are significant changes.
+   - Calculate the proportion of the cast that returns for sequels.
+   - Compare median ages of characters between sequels and original films.
+   - Compute the ratio of male to female characters for all sequels and all original films.
+   - Analyze changes in gender representation between original films and their sequels.
+
+**Step 10: Storyline Changes Analysis and Data Visualization:**
+   - Calculate similarity between synopses of original films and their sequels, possibly based on themes or overall content.
+   - Compute the ratio of recurring characters between original films and sequels for each pair.
+   - Generate visualizations, such as heatmaps, histograms, and comparative charts, to present the findings.
+
+**Step 11: Statistical Testing:**
+   - Apply statistical tests to identify significant differences in revenues, durations, or other relevant metrics between original films and sequels.
 
 
 ### Executed timeline
