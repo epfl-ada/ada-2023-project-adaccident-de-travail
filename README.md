@@ -2,8 +2,8 @@
 
 ## Abstract
 
-Making a sequel in the always changing face of filmmaking is a creative as well as a calculated decision. Our team aims to explore the multiple factors that play a role in the success of movie sequels, questioning whether these continuations achieve a comparable level of popularity to their original or follow a distinct pattern. 
-We examine movie’s genre dynamics, looking into how changes either support or contradict a sequel's success. We also analyze the effects of cast changes, asking whether they resonate with audiences or break the established storyline. 
+Making a sequel in the always-changing face of filmmaking is a creative as well as a calculated decision. Our team aims to explore the multiple factors that play a role in the success of movie sequels, questioning whether these continuations achieve a comparable level of popularity to their original or follow a distinct pattern. 
+We examine movies genre dynamics, looking into how changes either support or contradict a sequel's success. We also analyze the effects of cast changes, asking whether they resonate with audiences or break the established storyline. 
 This project aims to reveal layers of complexity beneath the surface of popular entertainment, providing nuanced insights into the complex nature of movie sequels. Our goal is to demystify the decision-making process underlying the sequels and provide a deeper understanding of their dynamics.
 
 ## Research questions
@@ -11,8 +11,8 @@ This project aims to reveal layers of complexity beneath the surface of popular 
 To better understand the distinctions between sequels and their original films, our investigation focused on these five main research questions:
 
 1. What is the comparative popularity of sequels in terms of box office grossing compared to their original films? How do the financial performances of sequels correlate with their respective original films?
-2. Does the cast significant change between original films and their sequels?
-3. Do the genres of movie vary greatly between sequels and original? Do genre changes significantly influence the success of a sequel?
+2. Does the cast significantly change between original films and their sequels?
+3. Do the genres of a movie vary greatly between sequels and the original? Do genre changes significantly influence the success of a sequel?
 4. Do storylines evolve or remain consistent between original films and their sequels?
 5. What is the relative impact of critics' reviews or consumer reviews on the success of a film? (If relevant)
 
@@ -22,7 +22,7 @@ To better understand the distinctions between sequels and their original films, 
 
 ### Methods
 
-#### Part 1: Comparison Between Movies with and Without Sequels
+#### Part 1: Comparison Between Movies With and Without Sequels
 
 **1.1: Datasets Selection and Filtering:**
    - Categorize films based on the presence or absence of sequels.
@@ -40,7 +40,7 @@ To better understand the distinctions between sequels and their original films, 
 **1.4: Genre and Character Analysis:**
    - Identify the N most frequent genres and determine the two main genres per film for all films.
    - Create heatmaps to visualize the relationship between the two main genres and compare the popularity of genre pairs amongst films with sequels and films without sequels.
-   - Calculate median ages of actors and group actors into age bins for films with sequels and films without sequels for further analysis.
+   - Calculate the median ages of actors and group actors into age bins for films with sequels and films without sequels for further analysis.
    - Calculate the ratio of male to female characters for films with sequels and films without sequels.
 
 #### Part 2: Comparison Between Original Films and Sequels
@@ -68,12 +68,12 @@ To better understand the distinctions between sequels and their original films, 
    - Compute distances between genres in original films and their sequels, exploring similarity or dissimilarity.
    - Examine the evolution of genres between original films and sequels to determine if there are significant changes.
    - Calculate the proportion of the cast that returns for sequels.
-   - Compare median ages of characters between sequels and original films.
+   - Compare the median ages of characters between sequels and original films.
    - Compute the ratio of male to female characters for all sequels and all original films.
    - Analyze changes in gender representation between original films and their sequels.
 
 **2.6: Storyline Changes Analysis and Data Visualization:**
-   - Calculate similarity between synopses of original films and their sequels, possibly based on themes or overall content.
+   - Calculate similarities between synopses of original films and their sequels, possibly based on themes or overall content.
    - Compute the ratio of recurring characters between original films and sequels for each pair.
    - Generate visualizations, such as heatmaps, histograms, and comparative charts, to present the findings.
 
@@ -85,9 +85,9 @@ To better understand the distinctions between sequels and their original films, 
 
 _Step n - to be done for dd/mm/yyyy_
 
-Step 0 - 17.11.2023: **Deadline Milestone 2**
+Step 0 - 17.11.2023 : **Deadline Milestone 2**
 
-Step 1 - 05.12.2023 : Make adjustements based on feedback from Milestone 2 
+Step 1 - 05.12.2023 : Make adjustments based on feedback from Milestone 2 
 
 Step 2 - 09.12.2023 : Collect / Scrape all missing information needed for Part 2
 
