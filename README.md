@@ -1,5 +1,4 @@
 # Tasks for P2
-## Mercredi soir, réserver et préparer slot pour TA
 - Data processing : Antoine, Willy
 - Readme :
   - Research questions, abstract, methods, blablater, timeline, répartition: Lena, Yosr, Elisa
@@ -24,9 +23,11 @@ To better understand the distinctions between sequels and their original films, 
 2. Does the cast significant change between original films and their sequels?
 3. Do the genres of movie vary greatly between sequels and original? Do genre changes significantly influence the success of a sequel?
 4. Do storylines evolve or remain consistent between original films and their sequels?
-(5. What is the relative impact of critics' reviews or consumer reviews on the success of a film?)
+5. What is the relative impact of critics' reviews or consumer reviews on the success of a film? (If relevant)
 
 ## Additional datasets
+- Wikidata for meta-information about movies, such as sequels information
+- IMDB and RottenTomatoes for reviews
 
 ### Methods
 
