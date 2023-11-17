@@ -111,7 +111,7 @@ Step 6 - 22.12.2023 :  **Deadline Milestone 3**
     <td class="tg-0lax"> Data Story + milestone 2 feedback correction </td>
   </tr>
   <tr>
-    <td class="tg-0lax">Willy</td>    
+    <td class="tg-0lax">Quang Long Ho</td>    
     <td class="tg-0lax"> In charge of Parts 2.1 to 2.4 + final code cleanup </td>
   </tr>
   <tr>
