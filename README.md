@@ -25,23 +25,23 @@ To better understand the distinctions between sequels and their original films, 
 #### Part 1: Comparison Between Movies with and Without Sequels
 
 **1.1: Datasets Selection and Filtering:**
-   - Choose three datasets for analysis: all films, films with sequels, and films without sequels.
    - Categorize films based on the presence or absence of sequels.
+   - Create two datasets for analysis: films with sequels and films without sequels.
 
 **1.2: Revenue and Duration Analysis:**
-   - Compute mean and median revenues and durations for films with sequels, films without sequels, and all films.
-   - Apply statistical tests to assess differences in revenue and duration distributions among films with sequels, films without sequels, and all films.
+   - Compute mean and median revenues and durations for films with sequels and films without sequels.
+   - Apply statistical tests to assess differences in revenue and duration distributions among films with sequels and films without sequels.
 
 **1.3: Release and Origin Analysis:**
-   - Categorize films by release year and month and analyze the distribution for films with sequels, films without sequels, and all films.
+   - Categorize films by release year and month and analyze the distribution for films with sequels and films without sequels.
    - Compute the ratio of films with sequels to all films for each year and analyze trends.
-   - Categorize films by their country of origin and analyze the distribution for films with sequels, films without sequels, and all films.
+   - Categorize films by their country of origin and analyze the distribution for films with sequels and films without sequels.
 
 **1.4: Genre and Character Analysis:**
    - Identify the N most frequent genres and determine the two main genres per film for all films.
-   - Create heatmaps to visualize the relationship between the two main genres and compare the popularity of genre pairs.
-   - Calculate median ages of actors, group actors into age bins for further analysis.
-   - Calculate the ratio of male to female characters for all films, films with sequels, and films without sequels.
+   - Create heatmaps to visualize the relationship between the two main genres and compare the popularity of genre pairs amongst films with sequels and films without sequels.
+   - Calculate median ages of actors and group actors into age bins for films with sequels and films without sequels for further analysis.
+   - Calculate the ratio of male to female characters for films with sequels and films without sequels.
 
 #### Part 2: Comparison Between Original Films and Sequels
 
