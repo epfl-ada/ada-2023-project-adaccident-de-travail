@@ -51,7 +51,7 @@ To initiate the analysis, pairs of films (original; sequel) were created, formin
 **2.2: Financial and Temporal Analysis: Revenue and Duration:**
 Median annual revenues and mean or median durations were calculated for all original films and sequels. To assess the financial and temporal dynamics, histograms were created to visually compare the distribution of revenues and durations for original films and their sequels.
 
-**2.3: Release Year Analysis and Origin Country Analysis:**
+**2.3: Release Analysis and Origin Country Analysis:**
 The release year and month were analyzed to understand the temporal dimensions of original films and sequels. Histograms were generated to compare the distribution of release years for original films and sequels. Additionally, films were categorized by their country of origin, contributing to a comprehensive understanding of the distribution of sequels across different regions, similar to Part 1.
 
 **2.4: Genre Analysis:**
