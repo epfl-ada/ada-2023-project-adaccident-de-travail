@@ -7,8 +7,13 @@ from bs4 import BeautifulSoup
 DATA_PATH = './MovieSummaries'
 
 # Import tsv file, where each line is a movie and the metadata is separated by tabs
-movie = pd.read_csv(DATA_PATH + '/movie.metadata.tsv', sep='\t', header=None)
+movie = pd.read_csv(DATA_PATH + '/sequels.csv', sep='\t', header=0)
+
+# adding the following categories to the movie dataframe ['WikipediaID', 'FreebaseID', 'MovieName', 'ReleaseDate', 'BoxOffice', 'Runtime', 'Languages', 'Countries', 'Genres']
 movie.columns = ['WikipediaID', 'FreebaseID', 'MovieName', 'ReleaseDate', 'BoxOffice', 'Runtime', 'Languages', 'Countries', 'Genres']
+
+print(movie.head())
+
 
 #characters = pd.read_csv(DATA_PATH + '/character.metadata.tsv', sep='\t', header=None)
 #characters.columns = ['WikipediaID', 'FreebaseID', 'ReleaseDate', 'CharName', 'ActorDOB', 'ActorGender', 'ActorHeight', 'ActorEthnicity', 'ActorName', 'ActorAge', 'FreebaseMapID', 'FreebaseCharID', 'FreebaseActorID']
