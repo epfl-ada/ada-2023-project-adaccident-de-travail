@@ -212,11 +212,6 @@ def scrape_metadata(df, i):
 
     return metadata
 
-
-
-
-
-
 # Load the data
 DATA_PATH = ''
 
