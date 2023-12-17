@@ -1,12 +1,12 @@
 ####################### Banner #########################
 style: "style1 orient-left content-align-left image-position-right fullscreen onload-image-fade-in onload-content-fade-right"
-title : "Hugo Story"
-subtitle: |
-  Hugo Story released for free under the <a target="_blank" href="https://creativecommons.org/licenses/by/3.0/">Creative Commons</a>.
+title : "A Story of Stories and their Sequels II"
+subtitle: "Attack of the Clones"
 content : |
-  This is a <strong>Banner</strong> element, and it's generally used as an introduction or opening statement. You can customize its <span class="demo-controls">appearance with a number of modifiers</span>, as well as assign it an optional <code>onload</code> or <code>onscroll</code> transition modifier (<a href="#reference-banner">details</a>).
+  Have you ever been let down by a great movie that abruptly ends with a cliffhanger? Sometimes, there is no sequel and you need to live with it. Sometimes, when there is one, it is not that great...</br>What makes a movie even have a sequel? And a great one?</br>
+  Let's dive into a study of feature films and their sequels.
 button:
-  label : "Get Started"
-  link : "#first"
-image : "images/banner.jpg"
+  label : "Let's dive!"
+  link : "#dive"
+image : "images/cinema.jpg"
 
