@@ -6,6 +6,9 @@ Making a sequel in the always-changing face of filmmaking is a creative as well 
 We examine movies genre dynamics, looking into how changes either support or contradict a sequel's success. We also analyze the effects of cast changes, asking whether they resonate with audiences or break the established storyline. 
 This project aims to reveal layers of complexity beneath the surface of popular entertainment, providing nuanced insights into the complex nature of movie sequels. Our goal is to demystify the decision-making process underlying the sequels and provide a deeper understanding of their dynamics.
 
+##### Data Story website
+The data story website source is on the `story` branch of this repo.
+
 ## Research questions
 
 To better understand the distinctions between sequels and their original films, our investigation focused on these five main research questions:
