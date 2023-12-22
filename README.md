@@ -7,7 +7,7 @@ We examine movies genre dynamics, looking into how changes either support or con
 This project aims to reveal layers of complexity beneath the surface of popular entertainment, providing nuanced insights into the complex nature of movie sequels. Our goal is to demystify the decision-making process underlying the sequels and provide a deeper understanding of their dynamics.
 
 ##### Data Story website
-The data story website source is on the `story` branch of this repo.
+The data story website is available [here](https://epfl-ada.github.io/ada-2023-project-adaccident-de-travail/). Its source is on the `story` branch of this repository.
 
 ## Research questions
 
