@@ -40,7 +40,7 @@ Examining the release dates of movies provided valuable insights into temporal t
                       </h3>
                       <p align="justify">
                         One of the most obvious metrics in movie comparison are their financial performance. We measured the success of a movie by its worldwide revenue.
-                        Overall, movies with sequels demonstrated higher average and median revenues compared to their non-sequel counterparts. This could suggest that financially successful movies get sequels as it aligns with the idea that there is interest and audiences will invest in follow-up productions.
+                        Overall, movies with sequels demonstrated higher average and median revenues compared to their non-sequel counterparts. This could suggest that financially successful movies get sequels as it aligns with the idea that there is interest and audiences will invest in follow-up productions, or that important studios have the means to promote their content more efficiently.
 
                         <div style="display: flex; justify-content: center; width: 100%; height: auto;">
                           <iframe src="plots/p1_earnings.html" onload='javascript:(function(o){o.style.height=o.contentWindow.document.body.scrollHeight+"px";}(this));' style="height:800px;width:100%;border:none;overflow:hidden;"></iframe>
@@ -102,11 +102,8 @@ Examining the release dates of movies provided valuable insights into temporal t
                         </h3>
 
                       <p align="justify">
-Moving on to the intrinsic characteristics of movies, we analyzed the genre composition of movies with and without sequels. Our dataset had a large number of subgenres, which made it difficult to compare movies across different genres. Therefore, we simplified our genre analysis by selecting the top 10 most frequent genres in our dataset, and assigning each movie two main genres based on its subgenres. The heatmap allows us to easily visualize the frequency of genre combinations, and we found that movies with sequels are more likely to belong to the action, adventure, comedy, and fantasy genres, while movies without sequels are more likely to belong to the drama, romance, thriller, and horror genres. This suggests that movies  with high entertainment value and spectacle are more prone to getting sequels, whereas original films are more suitable for genres that have high emotional appeal and realism. We also performed a statistical test, which confirms that the genre distribution of movies with and without sequels is significantly different. </p>
-
-                      <div style="display: flex; justify-content: center; width: 100%; height: auto;">
-                        <img src="plots/p1_genres_heatmap.png" style="width: 100%; height: auto;">
-                      </div>
+                        Moving on to the intrinsic characteristics of movies, we analyzed the genre composition of movies with and without sequels.
+                      </br>Our dataset had a large number of subgenres, which made it difficult to compare movies across different genres. Therefore, we simplified our genre analysis by selecting the top 10 most frequent genres in our dataset, and assigning each movie two main genres based on its subgenres.</p>
 
                       <div style="display: flex; justify-content: center; width: 100%; height: auto;">
                         <iframe src="plots/p1_top_genres_w.html" onload='javascript:(function(o){o.style.height=o.contentWindow.document.body.scrollHeight+"px";}(this));' style="height:700px;width:100%;border:none;overflow:hidden;"></iframe>
@@ -115,6 +112,18 @@ Moving on to the intrinsic characteristics of movies, we analyzed the genre comp
                       <div style="display: flex; justify-content: center; width: 100%; height: auto;">
                         <iframe src="plots/p1_top_genres.html" onload='javascript:(function(o){o.style.height=o.contentWindow.document.body.scrollHeight+"px";}(this));' style="height:700px;width:100%;border:none;overflow:hidden;"></iframe>
                       </div>
+
+                      <p style="text-align: justify; margin-top: 2em; margin-bottom: 2em;" class="after-graph before-graph">
+                        As seen on these charts, the "drama" genre is much more represented in <i>one-shot</i> movies. This could be due to the rather "self-contained" nature of those films. 
+                        Other genres are more or less proportionnally equally represented in both categories. Mainstream genres, such as "Action" or "Comedy" boast on the top of both charts.
+                      </p>
+
+                      <div style="display: flex; justify-content: center; width: 100%; height: auto;">
+                        <img src="plots/p1_genres_heatmap.png" style="width: 100%; height: auto;">
+                      </div>
+
+                      <p style="text-align: justify;  margin-top: 2em; margin-bottom: 2em;" class="after-graph"> The heatmap allows us to easily visualize the frequency of genre combinations, and we found that movies with sequels are more likely to belong to the action, adventure, comedy, and fantasy genres, while movies without sequels are more likely to belong to the drama, romance, thriller, and horror genres. This suggests that movies  with high entertainment value and spectacle are more prone to getting sequels, whereas original films are more suitable for genres that have high emotional appeal and realism. We also performed a statistical test, which confirms that the genre distribution of movies with and without sequels is significantly different.
+                      </p>
                       
                        <h3>
                            Casting Shadows - Actors and Characters
