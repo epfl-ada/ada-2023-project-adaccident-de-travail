@@ -61,10 +61,7 @@ The release year and month were analyzed to understand the temporal dimensions o
 A heatmap was generated to compare the distribution of genres between all original films and their respective sequels, employing a methodology similar to that used in Part 1. The focus of this analysis was on understanding how genres evolve and change between the original film and its sequel.
 
 **2.5: Character Analysis:**
-To delve into the intricacies of character dynamics, the proportion of the cast returning for sequels was calculated. Additionally, the median ages of characters were compared between sequels and original films. Ratios of male to female characters were computed for both sequels and original films, with an in-depth analysis of changes in gender representation between the two. 
-
-**2.6: Storyline Changes Analysis:**
-To comprehend the evolution of the narrative, similarities between summaries of original films and their sequels were calculated, based on themes or overall content. Natural Language Processing (NLP) techniques, such as cosine similarity or Jaccard similarity, were employed for this analysis, providing a quantitative measure of storyline changes. The ratio of recurring characters between original films and sequels for each pair was computed, shedding light on the continuity of characters across movies.
+To delve into the intricacies of character dynamics, the proportion of the cast returning for sequels was calculated. Additionally, the median ages of characters were compared between sequels and original films. Ratios of male to female characters were computed for both sequels and original films, with an in-depth analysis of changes in gender representation between the originals and their sequels.
 
 
 
