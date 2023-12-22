@@ -2,12 +2,29 @@ svg {
     display: block;
     margin: auto;
 }
-.before-graph{
-    margin-bottom: 0;
-}
 
 h3 {
     margin-top: 2em;
+}
+
+iframe + div > h4 {
+    margin-top: 1em;
+}
+
+iframe + div > h3 {
+    margin-top: 2em;
+}
+
+.after-map{
+    margin-top: 2em;
+}
+
+p + div > h4 {
+    margin-top: 1em;
+}
+
+p + div > h3 {
+    margin-top: 1em;
 }
 
 .title {
@@ -15,6 +32,10 @@ h3 {
     justify-content: start;
 }
 
+/* .before-graph{
+    margin-bottom: 0;
+}
+
 .after-graph {
     margin-top: 2em;
-}
+} */
