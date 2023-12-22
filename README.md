@@ -75,9 +75,9 @@ Step 1 - 05.12.2023 : Make adjustments based on feedback from Milestone 2
 
 Step 2 - 09.12.2023 : Collect / Scrape all missing information needed for Part 2
 
-Step 3 - 12.12.2023 : Analysis of Parts 2.1 to 2.4
+Step 3 - 12.12.2023 : Analysis of Parts 2.1 to 2.3
 
-Step 4 - 16.12.2023 : Analysis of Parts 2.5 to 2.7
+Step 4 - 16.12.2023 : Analysis of Parts 2.4 and 2.5
 
 Step 5 - 20.12.2023 : Code cleanup + HTML Data Story
 
@@ -112,11 +112,11 @@ Step 6 - 22.12.2023 :  **Deadline Milestone 3**
   </tr>
   <tr>
     <td class="tg-0lax">Quang Long Ho</td>    
-    <td class="tg-0lax"> In charge of Parts 2.1 to 2.4 + final code cleanup </td>
+    <td class="tg-0lax"> In charge of Parts 2.1 to 2.3 + final code cleanup </td>
   </tr>
   <tr>
     <td class="tg-0lax">Lena</td>
-    <td class="tg-0lax"> In charge of Parts 2.5 to 2.7 + in charge of final "submission" </td>
+    <td class="tg-0lax"> In charge of Parts 2.4 and 2.5 + in charge of final "submission" </td>
   </tr>
 </tbody>
 </table>
