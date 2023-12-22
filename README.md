@@ -6,7 +6,7 @@ Making a sequel in the always-changing face of filmmaking is a creative as well 
 We examine movies genre dynamics, looking into how changes either support or contradict a sequel's success. We also analyze the effects of cast changes, asking whether they resonate with audiences or break the established storyline. 
 This project aims to reveal layers of complexity beneath the surface of popular entertainment, providing nuanced insights into the complex nature of movie sequels. Our goal is to demystify the decision-making process underlying the sequels and provide a deeper understanding of their dynamics.
 
-##### Data Story website
+### Data Story website
 The data story website is available [here](https://epfl-ada.github.io/ada-2023-project-adaccident-de-travail/). Its source is on the `story` branch of this repository.
 
 ## Research questions
