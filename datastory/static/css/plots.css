@@ -9,3 +9,12 @@ svg {
 h3 {
     margin-top: 2em;
 }
+
+.title {
+    display: flex;
+    justify-content: start;
+}
+
+.after-graph {
+    margin-top: 2em;
+}
