@@ -31,7 +31,6 @@
 
 	
 	<link rel="stylesheet" href="./css/fontawesome-all.min.css">
-
 </head>
 
 
@@ -45,8 +44,7 @@
     <div class="content">
         <h1>A Story of Stories and their Sequels II</h1>
         <p class="major">Attack of the Clones</p>
-        <p>Have you ever been let down by a great movie that abruptly ends with a cliffhanger? Sometimes, there is no sequel and you need to live with it. Sometimes, when there is one, it is not that great...</br>What makes a movie even have a sequel? And a great one?</br>
-Let's dive into a study of feature films and their sequels.
+        <p>Today, we invite you to join our exploration into the intriguing world of movie sequels and embark on an journey to unravel the mysteries behind feature films and their sequels.
 </p>
         <ul class="actions stacked">
             <li><a href="#dive" class="button primary large wide smooth-scroll-middle">Let&#39;s dive!</a></li>
@@ -56,14 +54,97 @@ Let's dive into a study of feature films and their sequels.
         <img src="images/cinema.jpg" />
     </div>
 </section>
-					
-                <section class="wrapper style1 align-center" id="dive">
+	             <section class="wrapper style1 align-center" id="dive">
                     <div class="inner">
-                        <h1>Part 1</h1>
-                        <h2>Comparing movies <em>with</em> sequels and movies <em>without</em> sequels</h2>
-                        <p>BLA BLA BLA BLA texte ici</p>
-
+                        <h2>The Lure of Unfinished Stories </h2>
                         
+                        <p align="justify"> Movies are a universal form of entertainment that appeal to audiences worldwide. But have you ever been let down by a great movie that abruptly ends with a cliffhanger? Sometimes, there is no sequel and you need to live with it. Sometimes, when there is one, it is simply disappointing... </br>So, what makes a movie even have a sequel? How about a great one?</br> In this project, we investigate these questions using a large dataset of movies released between 1980 and 2016. We aim to discover the hidden factors that influence the success of movie sequels, and compare them with movies that do not have sequels. 
+                    </p>
+                       </div>
+                </section>
+
+	                <section class="wrapper style1 align-center" id="dive">
+                    <div class="inner">
+                        <h2>Part 1 : Comparing movies <em>with</em> sequels to movies <em>without</em> sequels</h2>
+
+                      
+                        <p align="justify">
+To start our analysis, we first identified which movies in our dataset had sequels and which did not. We used a combination of web scraping, data cleaning, and manual verification to enrich our dataset with sequel information.
+
+We then divided the movies into two groups: movies with sequels and movies without sequels. We compared these groups on various dimensions, with the goal to find out how these two categories differ, and what factors are associated with the success of movie sequels.
+</p>
+                        <h3>
+                          Temporal Analysis
+                        </h3>
+
+                      <p align="justify">
+Examining the release dates of movies provided valuable insights into temporal trends as it sheds light the evolving dynamics within the film industry.
+                      </p>
+                      <p align="left">
+<b> Release Year Trends </b>
+                      </p>
+                      <p align="justify">
+Our analysis on the release years reveals a shifting landscape in the production and distribution of movies. Over time, there is an increase in the overall number of movies hitting the screens. Moreover, the number of movies with sequels has significantly increased over time, reflecting a perhaps growing popularity of franchise movies. These type of movies take an increasingly greater fraction of the overall releases. 
+                        </p>
+                      <p align="left">
+                        <b> Release Months Trends </b>
+                        </p>
+                      <p align="justify" class="before-graph">
+Turning our attention to release months, a notable concentration of movie premieres in certain months emerged. ____ and _____ stood out prominently, emerging as the peak months for movie releases. This seasonal preference seems to align with the fact that summer months are traditionally associated with blockbuster releases, capitalising on viewership during vacation periods. [ A RECHECK, J'AI PLUS LES GRAPHS EN TETE ] 
+                      </p>
+                      
+                        <div style="display: flex; justify-content: center; width: 100%; height: auto;">
+                            <iframe src="plots/p1_release_year.html" onload='javascript:(function(o){o.style.height=o.contentWindow.document.body.scrollHeight+"px";}(this));' style="height:200px;width:100%;border:none;overflow:hidden;"></iframe>
+                        </div>
+
+                     <h3>
+                          Financial Performance
+                      </h3>
+                      <p align="justify">
+One of the most obvious dimensions to compare movies with and without sequels is their financial performance. We measured the success of a movie by its worldwide revenue, adjusted for inflation. <b> (adjusted ????) </b>
+Overall, movies with sequels demonstrated higher average and median revenues compared to their non-sequel counterparts. This could suggest that financially successful movies get sequels as it aligns with the idea that there is interest and audiences will invest in follow-up productions.
+However, the financial landscape reveals a nuanced picture : while movies with sequels boast higher average and median revenues, they also exhibit greater variability. [ A CHECK AUSSI]
+
+
+                        <h3>
+                          Runtime Divergence
+                        </h3>
+
+                      <p align="justify">
+                        pouet pouet
+                      </p>
+
+                      <h3>
+                          Global Influence
+                        </h3>
+
+                      <p align="justify">
+Next, we examine the release patterns of movies by their country of origin. We found that most movies in our dataset are from the United States, followed by _____. However, we also observed that movies with sequels are more likely to be from the United States and India than movies without sequels, suggesting that sequels are more prevalent in Hollywood and Bollywood more than in other countries. For the US, this could be due to the higher production budgets, marketing expenditures, and global distribution networks of American studios, which enable them to produce and promote sequels more effectively.
+                      </p>
+
+                      <h3>
+                          Genre Dynamics
+                        </h3>
+
+                      <p align="justify">
+Moving on to the intrinsic characteristics of movies, we analyzed the genre composition of movies with and without sequels. Our dataset had a large number of subgenres, which made it difficult to compare movies across different genres. Therefore, we simplified our genre analysis by selecting the top 10 most frequent genres in our dataset, and assigning each movie two main genres based on its subgenres. The heatmap allows us to easily visualize the frequency of genre combinations, and we found that movies with sequels are more likely to belong to the action, adventure, comedy, and fantasy genres, while movies without sequels are more likely to belong to the drama, romance, thriller, and horror genres. This suggests that movies  with high entertainment value and spectacle are more prone to getting sequels, whereas original films are more suitable for genres that have high emotional appeal and realism. We also performed a statistical test, which confirms that the genre distribution of movies with and without sequels is significantly different. </p>
+
+                       <h3>
+                           Casting Shadows - Actors and Characters
+                        </h3>
+
+                      <p align="justify">
+Finally, we focused on the character attributes of movies, mainly through the age and gender of the actors. We calculated the median age of the actors for each movie, as well as the ratio of male to female actors for each movie. By looking at these graphs, we found that movies with sequels tend to have younger actors than movies without sequels. [A CHECK] This could indicate that sequels target younger audiences, or that younger actors have more appeal and longevity in the film industry. 
+                        [GRAPH RATION SEQUEL EN FONCTION DU RATIO H/F ??]
+                      </p>
+
+                        <h3>
+                           Unveiling the Sequel Magic
+                        </h3>
+
+                      <p align="justify">
+In conclusion, our analysis of part 1 reveals some interesting differences and similarities between movies with and without sequels. We found that movies with sequels have higher revenues, _______. Moreover, we found that the number of movies with sequels has increased over time, reflecting the growing popularity of franchise movies. In the next part of our project, we will delve deeper into the success factors of movie sequels, and examine how they relate to the quality, awareness, and continuity of the parent movies. 
+                      </p>
 
                     </div>
                 </section>
