@@ -32,6 +32,8 @@
 	
 	<link rel="stylesheet" href="./css/fontawesome-all.min.css">
 
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
 	<link rel="stylesheet" href="./css/plots.css">
 
 </head>
@@ -45,6 +47,10 @@
 	
 <section class="banner style1 orient-left content-align-left image-position-right fullscreen onload-image-fade-in onload-content-fade-right">
     <div class="content">
+        <div class="alert alert-warning" style="visibility: hidden;" id='mobile-warning' role="alert">
+            This experience is better viewed on a desktop computer.</br>
+            You might have difficulties visualizing data on mobile.
+        </div> 
         <h1>A Story of Stories and their Sequels II</h1>
         <p class="major">Attack of the Clones</p>
         <p>Today, we invite you to join our exploration into the intriguing world of movie sequels and embark on an journey to unravel the mysteries behind feature films and their sequels.
@@ -57,6 +63,33 @@
         <img src="images/cinema.jpg" />
     </div>
 </section>
+
+<script>
+    var userAgent = navigator.userAgent.toLowerCase(),
+    width = screen.availWidth,
+    height = screen.availHeight,
+    userIsOnMobileDevice = checkIfUserIsOnMobileDevice(userAgent);
+    if(userIsOnMobileDevice) {
+        document.getElementById('mobile-warning').style.visibility='visible';
+    }
+    
+    function checkIfUserIsOnMobileDevice($userAgent) {
+    if($userAgent.includes('mobi') || $userAgent.includes('tablet')){
+        return true;
+    }
+    if($userAgent.includes('android')) {
+        if(height > width && width < 800) {
+            
+            return true;
+        }
+        if(width > height && height < 800) {
+            
+            return true;
+        }
+    }
+    return false;
+    }
+</script>
 	             <section class="wrapper style1 align-center" id="dive">
                     <div class="inner">
                         <h2>The Lure of Unfinished Stories </h2>
@@ -85,7 +118,7 @@ Examining the release dates of movies provided valuable insights into temporal t
                       </p>
                       <div class="title">
                         <h4>
-                          <b>Release Year Trends</b>
+                          Release Year Trends
                         </h4>
                       </div>
                       <p align="justify" class="before-graph">
@@ -102,7 +135,7 @@ Our analysis on the release years reveals a shifting landscape in the production
 
                     <div class="title">
                       <h4 class="after-graph">
-                        <b>Release Months Trends</b>
+                        Release Months Trends
                       </h4>
                     </div>
 
@@ -132,7 +165,7 @@ However, the financial landscape reveals a nuanced picture : while movies with s
                       </p>
 
                       <div style="display: flex; justify-content: center; width: 100%; height: auto;">
-                        <iframe src="plots/p1_duration.html" onload='javascript:(function(o){o.style.height=o.contentWindow.document.body.scrollHeight+"px";}(this));' style="height:800px;width:100%;border:none;overflow:hidden;"></iframe>
+                        <iframe src="plots/p1_durations.html" onload='javascript:(function(o){o.style.height=o.contentWindow.document.body.scrollHeight+"px";}(this));' style="height:800px;width:100%;border:none;overflow:hidden;"></iframe>
                       </div>
 
                       <h3>
@@ -143,13 +176,30 @@ However, the financial landscape reveals a nuanced picture : while movies with s
 Next, we examine the release patterns of movies by their country of origin. We found that most movies in our dataset are from the United States, followed by _____. However, we also observed that movies with sequels are more likely to be from the United States and India than movies without sequels, suggesting that sequels are more prevalent in Hollywood and Bollywood more than in other countries. For the US, this could be due to the higher production budgets, marketing expenditures, and global distribution networks of American studios, which enable them to produce and promote sequels more effectively.
                       </p>
 
-                      <h3>
+
+                      <div style="display: flex; justify-content: center; width: 100%; height: auto;">
+                        <iframe src="plots/p1_map.html" onload='javascript:(function(o){o.style.height=o.contentWindow.document.body.scrollHeight+"px";}(this));' style="height:800px;width:100%;border:none;overflow:hidden;"></iframe>
+                      </div>
+
+                      <h3 class="after-map">
                           Genre Dynamics
                         </h3>
 
                       <p align="justify">
 Moving on to the intrinsic characteristics of movies, we analyzed the genre composition of movies with and without sequels. Our dataset had a large number of subgenres, which made it difficult to compare movies across different genres. Therefore, we simplified our genre analysis by selecting the top 10 most frequent genres in our dataset, and assigning each movie two main genres based on its subgenres. The heatmap allows us to easily visualize the frequency of genre combinations, and we found that movies with sequels are more likely to belong to the action, adventure, comedy, and fantasy genres, while movies without sequels are more likely to belong to the drama, romance, thriller, and horror genres. This suggests that movies  with high entertainment value and spectacle are more prone to getting sequels, whereas original films are more suitable for genres that have high emotional appeal and realism. We also performed a statistical test, which confirms that the genre distribution of movies with and without sequels is significantly different. </p>
 
+                      <div style="display: flex; justify-content: center; width: 100%; height: auto;">
+                        <img src="plots/p1_genres_heatmap.png" style="width: 100%; height: auto;">
+                      </div>
+
+                      <div style="display: flex; justify-content: center; width: 100%; height: auto;">
+                        <iframe src="plots/p1_top_genres_w.html" onload='javascript:(function(o){o.style.height=o.contentWindow.document.body.scrollHeight+"px";}(this));' style="height:700px;width:100%;border:none;overflow:hidden;"></iframe>
+                      </div>
+
+                      <div style="display: flex; justify-content: center; width: 100%; height: auto;">
+                        <iframe src="plots/p1_top_genres.html" onload='javascript:(function(o){o.style.height=o.contentWindow.document.body.scrollHeight+"px";}(this));' style="height:700px;width:100%;border:none;overflow:hidden;"></iframe>
+                      </div>
+                      
                        <h3>
                            Casting Shadows - Actors and Characters
                         </h3>
